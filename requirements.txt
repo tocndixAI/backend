@@ -5,4 +5,4 @@ google-cloud-translate==3.11.1
 ffmpeg-python==0.2.0
 google-auth==2.17.3
 pydub==0.25.1
-yt-dlp==2024.01.01  # Replace with the latest version if available
+yt-dlp
