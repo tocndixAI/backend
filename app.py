@@ -112,5 +112,7 @@ def transcrire_audio_en_chunks(fichier_audio, language_code):
 def serve_react_app():
     return send_from_directory(app.static_folder, 'index.html')
 
+
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    app.run(port=int(os.environ.get("PORT", 8080)),host='0.0.0.0',debug=True)
+
